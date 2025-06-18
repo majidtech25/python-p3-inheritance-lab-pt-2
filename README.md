@@ -8,27 +8,27 @@
     from and augment methods in the parent class.
 - Accomplish complex programming tasks using knowledge from previous modules.
 
-***
+---
 
 ## Key Vocab
 
 - **Inheritance**: a tool that allows us to recycle code by creating a class
-that "inherits" the attributes and methods of a parent class.
+  that "inherits" the attributes and methods of a parent class.
 - **Composition**: a tool that enables you to recycle code by adding objects to
-other objects. Rather than building on a base class as in inheritance,
-composition leverages the attributes and methods of an instance of another class.
+  other objects. Rather than building on a base class as in inheritance,
+  composition leverages the attributes and methods of an instance of another class.
 - **Subclass**: a class that inherits from another class. Colloquially called
-a "child" class.
+  a "child" class.
 - **Superclass**: a class that is inherited by another class. Colloquially
-called a "parent" class.
+  called a "parent" class.
 - **Child**: another name for a subclass.
 - **Parent**: another name for a superclass.
 - **`super()`**: a built-in Python function that allows us to manipulate the
-attributes and methods of a superclass from the body of its subclass.
+  attributes and methods of a superclass from the body of its subclass.
 - **Decorator**: syntax that allows us to add functionality to an object
-without modifying its structure.
+  without modifying its structure.
 
-***
+---
 
 ## Instructions
 
@@ -56,15 +56,13 @@ Run the test suite to get started. This is a test-driven lab.
    to inherit the behavior of the `hello()` method from the parent class. Then,
    augment that method to also `print()` out the very chatty phrase:
 
-   > _"How are you doing today? I'm okay, but I'm kind of tired. Did you watch
-   > The Walking Dead last night? You didn't?! Oh man, it was so crazy! What,
-   > you don't want any spoilers? Okay well let me just tell you who died..."_
+   > _"Pick me!"_
 
 4. Write a method in the `ChattyStudent` class, `raise_hand()`, that uses
    `super()` ten times so that the method will `print()` out _"Pick me!"_ ten
    times. **It is possible to call `super()` multiple times in a method.**
 
-***
+---
 
 ## Resources
 
